@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>APP La Ceiba</title>
+  <title>Prueba Tecnica</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -64,19 +64,6 @@
         </button>
       </li>
 
-      <!-- Login Button (placeholder for future implementation) -->
-      <li class="nav-item">
-        <a class="nav-link" href="#" title="Iniciar Sesión">
-          <i class="fas fa-sign-in-alt"></i>
-        </a>
-      </li>
-
-      <!-- Fullscreen Toggle -->
-      <li class="nav-item">
-        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-          <i class="fas fa-expand-arrows-alt"></i>
-        </a>
-      </li>
       
     </ul>
   </nav>
@@ -87,7 +74,7 @@
     <!-- Brand Logo -->
     <a href="index.php" class="brand-link">
       <img src="assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">APP La Ceiba</span>
+      <span class="brand-text font-weight-light">Prueba Tecnica</span>
     </a>
 
     <!-- Sidebar -->
@@ -98,7 +85,7 @@
           <img src="assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Geovani Aldana</a>
+          <a href="#" class="d-block">Administrador</a>
         </div>
       </div>
 
@@ -123,126 +110,76 @@
       <a href="#" class="nav-link">
         <i class="nav-icon fas fa-cogs"></i>
         <p>
-          Servicios
+          Proyectos
           <i class="right fas fa-angle-left"></i>
         </p>
       </a>
       <ul class="nav nav-treeview">
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="?c=projects" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Programar Servicio</p>
+            <p>Iniciar Proyecto</p>
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="?c=purchaseorders" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Servicios Pendientes</p>
+            <p>Generar Orden de Compra</p>
           </a>
         </li>
         <li class="nav-item">
-          <a href="?c=servicecategory" class="nav-link">
+          <a href="?c=donationsallocations" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Categoría de Servicios</p>
+            <p>Nueva Donación</p>
           </a>
         </li>
-        <li class="nav-item">
-          <a href="?c=applicationmethod" class="nav-link">
+          <li class="nav-item">
+          <a href="?c=donors" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Métodos de Aplicación</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="?c=servicestatus" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Estados de Servicios</p>
+            <p>Nueva Donador</p>
           </a>
         </li>
       </ul>
     </li>
 
-    <!-- Menú Clientes -->
+    <!-- Menú Gastos -->
     <li class="nav-item">
       <a href="#" class="nav-link">
         <i class="nav-icon fas fa-users"></i>
         <p>
-          Clientes
+          Gastos
           <i class="right fas fa-angle-left"></i>
         </p>
       </a>
       <ul class="nav nav-treeview">
         <li class="nav-item">
-          <a href="?c=client" class="nav-link">
+          <a href="?c=budgetitems" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Gestionar Clientes</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="?c=clienttype" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Tipos de Cliente</p>
+            <p>Listado Rubros</p>
           </a>
         </li>
       </ul>
     </li>
 
-        <!-- Menú Empleados -->
+        <!-- Menú Proveedores -->
     <li class="nav-item">
       <a href="#" class="nav-link">
         <i class="nav-icon fas fa-user-tie"></i>
         <p>
-          Empleados
+          Proveedores
           <i class="right fas fa-angle-left"></i>
         </p>
       </a>
       <ul class="nav nav-treeview">
         <li class="nav-item">
-          <a href="?c=roleemployee" class="nav-link">
+          <a href="?c=suppliers" class="nav-link">
             <i class="far fa-circle nav-icon"></i>
-            <p>Tipo de Empleados</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="?c=roleinservice" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Empleados en Servicio</p>
+            <p>Listado de Proveedores</p>
           </a>
         </li>
       </ul>
     </li>
 
-        <!-- Opciones Contacto -->
-    <li class="nav-item">
-      <a href="#" class="nav-link">
-        <i class="nav-icon fas fa-phone"></i>
-        <p>
-          Contacto
-          <i class="right fas fa-angle-left"></i>
-        </p>
-      </a>
-      <ul class="nav nav-treeview">
-        <li class="nav-item">
-          <a href="?c=client" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Contactos</p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="?c=contacttype" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Tipos de Contactos</p>
-          </a>
-        </li>
-      </ul>
-    </li>
-
-<!-- Tipos de documentos -->
-    <li class="nav-item">
-          <a href="?c=typedoc" class="nav-link">
-            <i class="far fa-circle nav-icon"></i>
-            <p>Tipos de Documentos</p>
-          </a>
-        </li>
 
   </ul>
 </nav>

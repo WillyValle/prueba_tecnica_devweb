@@ -5,7 +5,7 @@
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2025 <a href="#">Fumigadora La Ceiba</a>.</strong>
+    <strong>Copyright &copy; 2025 <a href="#">Prueba Técnica</a>.</strong>
   </footer>
 </div>
 <!-- ./wrapper -->

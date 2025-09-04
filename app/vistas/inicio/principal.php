@@ -2,59 +2,47 @@
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-
-            <div class="card card-primary card-outline">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div><!-- /.card -->
-          </div>
+          
           <!-- /.col-md-6 -->
           <div class="col-lg-6">
-            <div class="card">
+            <div class="card card-primary card-outline">
               <div class="card-header">
-                <h5 class="m-0">Featured</h5>
+                <h5 class="m-0">Crear Proyecto Nuevo</h5>
               </div>
               <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
-
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="?c=projects&a=FormCrear" class="btn btn-primary">Crear Proyecto</a>
               </div>
             </div>
 
             <div class="card card-primary card-outline">
               <div class="card-header">
-                <h5 class="m-0">Featured</h5>
+                <h5 class="m-0">Generar Orden de Compra</h5>
               </div>
               <div class="card-body">
-                <h6 class="card-title">Special title treatment</h6>
-
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="?c=purchaseorders&a=FormCrear" class="btn btn-primary">Crear Orden de Compra</a>
               </div>
             </div>
+
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h5 class="m-0">Administrar Proveedores</h5>
+              </div>
+              <div class="card-body">
+                <a href="?c=suppliers&a=FormCrear" class="btn btn-primary">Crear Proveedor</a>
+              </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h5 class="m-0">Administrar donadores</h5>
+              </div>
+              <div class="card-body">
+                <a href="?c=donors&a=FormCrear" class="btn btn-primary">Crear Donador</a>
+              </div>
+            </div>
+
+
+
           </div>
           <!-- /.col-md-6 -->
         </div>
