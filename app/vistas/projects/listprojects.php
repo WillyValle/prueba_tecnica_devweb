@@ -17,6 +17,7 @@
       <table id="tabla-projects" class="table table-bordered table-striped">
         <thead>
         <tr>
+          <th>Código proyecto</th>
           <th>Nombre del Proyecto</th>
           <th>Municipio</th>
           <th>Departamento</th>
@@ -30,6 +31,7 @@
         foreach($this->modelo->Listar() as $r): 
         ?>
         <tr id="fila-<?=$r->id_project?>-projects" data-id="<?=$r->id_project?>">
+          <td><?=htmlspecialchars($r->project_code)?></td>
           <td><?=htmlspecialchars($r->project_name)?></td>
           <td><?=htmlspecialchars($r->municipality)?></td>
           <td><?=htmlspecialchars($r->department)?></td>
